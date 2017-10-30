@@ -1,0 +1,258 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    overflow: hidden;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+/*--->  清除浮动    <---*/
+
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.word{
+    width: 100%;
+    overflow: hidden;
+}
+
+/*--->  nav    <---*/
+
+.word .row{
+    margin-left: 0px; 
+}
+.word nav{
+    margin-left: 0px;
+}
+.word header{
+    padding: 0px;
+    position: relative;
+}
+.navs{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 14px 0 22px 0;
+    font-size: 16px;
+    margin-left: 0px;
+    line-height: 20 px;
+}
+
+.navs ul li{
+    float: left;
+    padding-top: 5px;
+    list-style: none;
+    margin-left: 20px;
+}
+.navs ul li a{
+    color: #000;
+}
+.navs ul li a:hover{
+    color: red;
+}
+#red{
+    color:#fff;
+}
+i{
+    font-size: 30px;
+    color:red;
+}
+.logo{
+    color: #bfbfbf;
+}
+
+.nav-one{
+    padding: 0 34px 0 45px;
+    position: absolute;
+    left: 31px;
+    top: 80px;
+    z-index: 99;
+    width: 180px;
+    background: #757881;
+}
+.nav-one li{
+    list-style: none;
+    font-size: 18px;
+    color: #fff;
+}
+.nav-one li span{
+    float: right;
+}
+.nav-one ul{
+    width: 100%;
+    line-height: 41.3px;
+    padding-left: 0px;
+}
+
+
+
+
+section{
+    padding-top: 51px; 
+
+    padding-bottom: 20px;
+}
+
+
+section h4{
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.bt{
+    width: 100%;
+}
+.bt p{
+    float: left;
+}
+.bt span{
+    float: right;
+}
+.bt p a{
+    padding-left: 8px; 
+    padding-right: 8px; 
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 32px;
+}
+
+
+.advertising{
+    width: 100%;
+}
+.advertising-1{
+    float: left;
+    width: 19.5%;
+    padding: 12px;
+    margin-left: 0.5%;
+    border:1px solid #ccc;
+}
+.advertising-1 img{
+    width: 100%;
+
+}
+.advertising-1 h5{
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.advertising-1 p:nth-child(1){
+    color: #929292;
+}
+.advertising-1 p a{
+    color: #fff;
+}
+.advertising-1 p:nth-child(2){
+    float: right;
+}
+.advertising-1 span{
+    font-size: 20px;
+    font-weight: 600;
+    color:#fb474f;
+}
+
+.links{
+    width: 99%;
+    margin-left: 0.5%;
+    margin-top: 20px;
+    line-height: 40px;
+    border:1px solid #ccc;
+}
+
+.links a{
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #3d3838;
+}
+
+.tow,.four,.six,.Eight,.ten{
+    background: #fbf8f8;
+}
+
+footer{
+    width: 100%;
+}
+.foot-top{
+    padding-top: 56px;
+}
+
+
+.one-p{
+    font-size: 22px;
+}
+.one-ptow{
+    margin-top: 24px;
+}
+.one-ptow span{
+    margin-left: 40px;
+    
+}
+
+.top-foot{
+    padding-top: 72px;
+    padding-bottom: 38px;
+}
+.top-foot a{
+    padding-left:5px;
+    display: block;
+    font-size: 16px;
+    padding-right:5px;
+    color:#ccc;
+}
+.title{
+    font-size: 18px;
+}
+.top-foot p{
+    width: 10%;
+    float: left;
+}
+.logos{
+    padding-top: 30px;
+    background: #fbf8f8;
+}
+.logos h4{
+    font-size: 18px;
+    font-weight: 900;
+}
+.logos h5{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #898989;
+}
+
+
+
+
+
